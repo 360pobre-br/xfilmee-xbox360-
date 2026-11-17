@@ -1,0 +1,13 @@
+
+#ifndef XFILMEE_CONTROLLER_H
+#define XFILMEE_CONTROLLER_H
+
+enum MenuAction {
+    ACTION_NONE,
+    ACTION_UP,
+    ACTION_DOWN,
+    ACTION_SELECT,
+    ACTION_BACK
+};
+
+#endif
