@@ -1,7 +1,5 @@
 
-name: Build XFILMEE Xbox 360
-
-on:
+nan:
   push:
     branches: [main]
   workflow_dispatch:
