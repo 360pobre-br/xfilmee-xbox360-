@@ -1,0 +1,28 @@
+
+{
+  "application": "XFILMEE",
+  "version": "1.0",
+  "movies": [
+    {
+      "id": 1,
+      "title": "Filme 01",
+      "category": "Acao",
+      "description": "Descricao do filme.",
+      "cover": "assets/covers/01.png"
+    },
+    {
+      "id": 2,
+      "title": "Filme 02",
+      "category": "Comedia",
+      "description": "Descricao do filme.",
+      "cover": "assets/covers/02.png"
+    },
+    {
+      "id": 3,
+      "title": "Filme 03",
+      "category": "Aventura",
+      "description": "Descricao do filme.",
+      "cover": "assets/covers/03.png"
+    }
+  ]
+}
