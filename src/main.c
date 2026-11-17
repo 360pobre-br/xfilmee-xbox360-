@@ -267,3 +267,29 @@ int main(void)
 
     return 0;
 }
+
+#include "usb_library.h"
+
+UsbMovie usb_movies[XFILMEE_MAX_USB_MOVIES];
+
+int usb_count = xfilmee_usb_scan(
+    "usb:/XFILMEE/FILMES",
+    usb_movies,
+    XFILMEE_MAX_USB_MOVIES
+);
+
+if (usb_count < 0) {
+    xsdk_log_write("XFILMEE: USB nao encontrado");
+} else {
+    xsdk_log_write(
+        "XFILMEE: %d filmes encontrados",
+        usb_count
+    );
+
+    for (int i = 0; i < usb_count; i++) {
+        xsdk_log_write(
+            "Filme: %s",
+            usb_movies[i].title
+        );
+    }
+}
