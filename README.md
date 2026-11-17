@@ -23,4 +23,4 @@ para Xbox 360 RGH.
 
 ## Desenvolvedor
 
-VZNN
+Dev pobre sem dindin
